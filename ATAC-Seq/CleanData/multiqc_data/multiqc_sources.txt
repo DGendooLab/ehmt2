@@ -1,0 +1,17 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	C2-1-KD_R1_001_val_1	/rds/projects/g/gendood-preclinomics/EHMT2/ATACSeq_data_Saad/CleanData/fastqc/C2-1-KD_R1_001_val_1_fastqc.zip
+FastQC	all_sections	C4-1-KD-T_R2_001_val_2	/rds/projects/g/gendood-preclinomics/EHMT2/ATACSeq_data_Saad/CleanData/fastqc/C4-1-KD-T_R2_001_val_2_fastqc.zip
+FastQC	all_sections	B4-1-KD-T_R1_001_val_1	/rds/projects/g/gendood-preclinomics/EHMT2/ATACSeq_data_Saad/CleanData/fastqc/B4-1-KD-T_R1_001_val_1_fastqc.zip
+FastQC	all_sections	B1-1-C_R1_001_val_1	/rds/projects/g/gendood-preclinomics/EHMT2/ATACSeq_data_Saad/CleanData/fastqc/B1-1-C_R1_001_val_1_fastqc.zip
+FastQC	all_sections	B4-1-KD-T_R2_001_val_2	/rds/projects/g/gendood-preclinomics/EHMT2/ATACSeq_data_Saad/CleanData/fastqc/B4-1-KD-T_R2_001_val_2_fastqc.zip
+FastQC	all_sections	C1-1-C_R2_001_val_2	/rds/projects/g/gendood-preclinomics/EHMT2/ATACSeq_data_Saad/CleanData/fastqc/C1-1-C_R2_001_val_2_fastqc.zip
+FastQC	all_sections	B1-1-C_R2_001_val_2	/rds/projects/g/gendood-preclinomics/EHMT2/ATACSeq_data_Saad/CleanData/fastqc/B1-1-C_R2_001_val_2_fastqc.zip
+FastQC	all_sections	B3-1-C-T_R1_001_val_1	/rds/projects/g/gendood-preclinomics/EHMT2/ATACSeq_data_Saad/CleanData/fastqc/B3-1-C-T_R1_001_val_1_fastqc.zip
+FastQC	all_sections	C1-1-C_R1_001_val_1	/rds/projects/g/gendood-preclinomics/EHMT2/ATACSeq_data_Saad/CleanData/fastqc/C1-1-C_R1_001_val_1_fastqc.zip
+FastQC	all_sections	B3-1-C-T_R2_001_val_2	/rds/projects/g/gendood-preclinomics/EHMT2/ATACSeq_data_Saad/CleanData/fastqc/B3-1-C-T_R2_001_val_2_fastqc.zip
+FastQC	all_sections	C2-1-KD_R2_001_val_2	/rds/projects/g/gendood-preclinomics/EHMT2/ATACSeq_data_Saad/CleanData/fastqc/C2-1-KD_R2_001_val_2_fastqc.zip
+FastQC	all_sections	C3-1-C-T_R2_001_val_2	/rds/projects/g/gendood-preclinomics/EHMT2/ATACSeq_data_Saad/CleanData/fastqc/C3-1-C-T_R2_001_val_2_fastqc.zip
+FastQC	all_sections	C4-1-KD-T_R1_001_val_1	/rds/projects/g/gendood-preclinomics/EHMT2/ATACSeq_data_Saad/CleanData/fastqc/C4-1-KD-T_R1_001_val_1_fastqc.zip
+FastQC	all_sections	B2-1-KD_R2_001_val_2	/rds/projects/g/gendood-preclinomics/EHMT2/ATACSeq_data_Saad/CleanData/fastqc/B2-1-KD_R2_001_val_2_fastqc.zip
+FastQC	all_sections	B2-1-KD_R1_001_val_1	/rds/projects/g/gendood-preclinomics/EHMT2/ATACSeq_data_Saad/CleanData/fastqc/B2-1-KD_R1_001_val_1_fastqc.zip
+FastQC	all_sections	C3-1-C-T_R1_001_val_1	/rds/projects/g/gendood-preclinomics/EHMT2/ATACSeq_data_Saad/CleanData/fastqc/C3-1-C-T_R1_001_val_1_fastqc.zip

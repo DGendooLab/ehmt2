@@ -66,31 +66,30 @@ flowchart TB
 
 ```bash
 bioinformatics-project/
-├── docs/                    # essential and useful project docs
-│   ├── tasks.docx
-│   ├── minutes.docx
-│   ├── report.pdf
-│   ├── presentation.mov 
-│   └── references.bib
-├── notebooks/                # markdown notes
-├── data/
-│   └── raw/                  # symbolic links to Blue BEAR. do not track
-├── rnaseq-scripts/           # for Yash
-│   └── preprocessing/ 
-├── atacseq-scripts/          # for Leo
-│   └── preprocessing/ 
-├── results/                  # publication-ready plots, tables, etc.
-├── README.md
+├── ATAC-Seq/                     # ATAC-Seq scriptsand results
+├── RNA-Seq/                      # RNA-Seq scriptsand results
+├── Integrated_Multiomics/        # Combining ATAC-Seq and RNA-Seq
+├── HCC_scRNA/                    # HCC scRNA analysis
+├── EnviromentBuilding/           # Including references building
+├── Documents/                    # Report draft, slides and meeting records
+└── README.md
 └── .gitignore                # list of files to not track
 ```
+## ⚠️ Notice
+Cause of limitation of file size in GitHub, files listed below are not included in repo.
+
+- .fastq.gz (Raw Data)
+- .RData (Image of analysis)
+- .RDS Larger than 100 MB
+- .bedGraph (MACS2 visualizaion data of ATAC-Seq)
+- .fasta, .gtf, .gff3 (Genome references files)
+
 
 
 ## 👥 Contributors
 
 - Zhaoshuo Liu
-
+- Miguel Alburo
+- Simran Panda
 - Yash Dhiman
 
-- Simran Panda
-
-- Miguel Alburo

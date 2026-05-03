@@ -1,0 +1,118 @@
+[2025-11-21 23:36:54.463] [jointLog] [info] setting maxHashResizeThreads to 6
+[2025-11-21 23:36:54.463] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2025-11-21 23:36:54.465] [jointLog] [info] numQuantThreads = 3
+[2025-11-21 23:36:57.506] [jointLog] [info] replaced 4 non-ACGT nucleotides with random nucleotides
+[2025-11-21 23:36:57.682] [fileLog] [info] quantification processed 0 fragments so far
+
+[2025-11-21 23:37:02.521] [fileLog] [info] quantification processed 1000000 fragments so far
+
+[2025-11-21 23:37:07.485] [fileLog] [info] quantification processed 2000000 fragments so far
+
+[2025-11-21 23:37:11.134] [jointLog] [info] 
+
+The alignment group queue pool has been exhausted.  8622617 extra fragments were allocated on the heap to saturate the pool.  No new fragments will be allocated
+
+
+[2025-11-21 23:37:16.299] [fileLog] [info] quantification processed 3000000 fragments so far
+
+[2025-11-21 23:37:34.741] [fileLog] [info] quantification processed 4000000 fragments so far
+
+[2025-11-21 23:37:53.221] [fileLog] [info] quantification processed 5000000 fragments so far
+
+[2025-11-21 23:38:11.627] [fileLog] [info] quantification processed 6000000 fragments so far
+
+[2025-11-21 23:38:30.044] [fileLog] [info] quantification processed 7000000 fragments so far
+
+[2025-11-21 23:38:36.109] [fileLog] [info] quantification processed 8000000 fragments so far
+
+[2025-11-21 23:38:42.254] [fileLog] [info] quantification processed 9000000 fragments so far
+
+[2025-11-21 23:38:48.430] [fileLog] [info] quantification processed 10000000 fragments so far
+
+[2025-11-21 23:38:54.595] [fileLog] [info] quantification processed 11000000 fragments so far
+
+[2025-11-21 23:39:00.722] [fileLog] [info] quantification processed 12000000 fragments so far
+
+[2025-11-21 23:39:06.865] [fileLog] [info] quantification processed 13000000 fragments so far
+
+[2025-11-21 23:39:13.058] [fileLog] [info] quantification processed 14000000 fragments so far
+
+[2025-11-21 23:39:19.272] [fileLog] [info] quantification processed 15000000 fragments so far
+
+[2025-11-21 23:39:25.461] [fileLog] [info] quantification processed 16000000 fragments so far
+
+[2025-11-21 23:39:31.606] [fileLog] [info] quantification processed 17000000 fragments so far
+
+[2025-11-21 23:39:37.849] [fileLog] [info] quantification processed 18000000 fragments so far
+
+[2025-11-21 23:39:44.099] [fileLog] [info] quantification processed 19000000 fragments so far
+
+[2025-11-21 23:39:50.355] [fileLog] [info] quantification processed 20000000 fragments so far
+
+[2025-11-21 23:39:56.569] [fileLog] [info] quantification processed 21000000 fragments so far
+
+[2025-11-21 23:40:02.690] [fileLog] [info] quantification processed 22000000 fragments so far
+
+[2025-11-21 23:40:09.013] [fileLog] [info] quantification processed 23000000 fragments so far
+
+[2025-11-21 23:40:15.301] [fileLog] [info] quantification processed 24000000 fragments so far
+
+[2025-11-21 23:40:21.567] [fileLog] [info] quantification processed 25000000 fragments so far
+
+[2025-11-21 23:40:27.855] [fileLog] [info] quantification processed 26000000 fragments so far
+
+[2025-11-21 23:40:34.187] [fileLog] [info] quantification processed 27000000 fragments so far
+
+[2025-11-21 23:40:40.516] [fileLog] [info] quantification processed 28000000 fragments so far
+
+[2025-11-21 23:40:46.846] [fileLog] [info] quantification processed 29000000 fragments so far
+
+[2025-11-21 23:40:53.205] [fileLog] [info] quantification processed 30000000 fragments so far
+
+[2025-11-21 23:40:59.553] [fileLog] [info] quantification processed 31000000 fragments so far
+
+[2025-11-21 23:41:05.869] [fileLog] [info] quantification processed 32000000 fragments so far
+
+[2025-11-21 23:41:12.138] [fileLog] [info] quantification processed 33000000 fragments so far
+
+[2025-11-21 23:41:14.367] [fileLog] [info] quantification processed 33351943 fragments so far
+
+[2025-11-21 23:41:26.714] [jointLog] [info] Thread saw mini-batch with a maximum of 4.60% zero probability fragments
+[2025-11-21 23:41:26.718] [jointLog] [info] Thread saw mini-batch with a maximum of 4.40% zero probability fragments
+[2025-11-21 23:41:26.731] [jointLog] [info] Thread saw mini-batch with a maximum of 4.30% zero probability fragments
+[2025-11-21 23:41:26.732] [jointLog] [info] 
+
+
+Completed first pass through the alignment file.
+Total # of mapped reads : 33351943
+# of uniquely mapped reads : 8052115
+# ambiguously mapped reads : 25299828
+
+
+
+[2025-11-21 23:41:26.957] [jointLog] [info] Computed 493212 rich equivalence classes for further processing
+[2025-11-21 23:41:26.957] [jointLog] [info] Counted 33319408 total reads in the equivalence classes 
+[2025-11-21 23:41:26.957] [jointLog] [info] starting optimizer
+[2025-11-21 23:41:27.071] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2025-11-21 23:41:27.091] [jointLog] [info] iteration = 0 | max rel diff. = 4375.86
+[2025-11-21 23:41:29.086] [jointLog] [info] iteration = 100 | max rel diff. = 14.7245
+[2025-11-21 23:41:30.977] [jointLog] [info] iteration = 200 | max rel diff. = 2.59293
+[2025-11-21 23:41:32.850] [jointLog] [info] iteration = 300 | max rel diff. = 3.79727
+[2025-11-21 23:41:34.763] [jointLog] [info] iteration = 400 | max rel diff. = 5.21982
+[2025-11-21 23:41:36.626] [jointLog] [info] iteration = 500 | max rel diff. = 3.14313
+[2025-11-21 23:41:38.526] [jointLog] [info] iteration = 600 | max rel diff. = 2.56695
+[2025-11-21 23:41:40.391] [jointLog] [info] iteration = 700 | max rel diff. = 4.36514
+[2025-11-21 23:41:42.255] [jointLog] [info] iteration = 800 | max rel diff. = 0.0816086
+[2025-11-21 23:41:44.167] [jointLog] [info] iteration = 900 | max rel diff. = 0.113883
+[2025-11-21 23:41:46.029] [jointLog] [info] iteration = 1000 | max rel diff. = 0.390733
+[2025-11-21 23:41:47.880] [jointLog] [info] iteration = 1100 | max rel diff. = 0.0434799
+[2025-11-21 23:41:49.637] [jointLog] [info] iteration = 1200 | max rel diff. = 0.828816
+[2025-11-21 23:41:51.518] [jointLog] [info] iteration = 1300 | max rel diff. = 0.0218519
+[2025-11-21 23:41:52.271] [jointLog] [info] iteration = 1341 | max rel diff. = 0.00829717
+[2025-11-21 23:41:52.281] [jointLog] [info] finished optimizer
+[2025-11-21 23:41:52.281] [jointLog] [info] writing output
+[2025-11-21 23:41:54.408] [jointLog] [info] Computing gene-level abundance estimates
+[2025-11-21 23:42:33.804] [jointLog] [info] There were 252930 transcripts mapping to 63187 genes
+[2025-11-21 23:42:33.804] [jointLog] [info] NOTE: We recommend using tximport (https://bioconductor.org/packages/release/bioc/html/tximport.html) for aggregating transcript-level salmon abundance estimates to the gene level.  It is more versatile, exposes more features, and allows considering multi-sample information during aggregation.
+[2025-11-21 23:42:34.261] [jointLog] [info] Aggregating expressions to gene level
+[2025-11-21 23:42:34.373] [jointLog] [info] done

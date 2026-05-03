@@ -1,0 +1,6 @@
+Drug	Gene
+Crizotinib	SH3PXD2A
+Salicylate, sodium	SH3PXD2A
+Lenalidomide	SH3PXD2A
+Lapatinib	SH3PXD2A
+orciprenaline	ANXA10

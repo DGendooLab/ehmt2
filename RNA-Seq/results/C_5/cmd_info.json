@@ -1,0 +1,10 @@
+{
+    "salmon_version": "1.10.3",
+    "geneMap": "gencode.v45.annotation.filtered.gtf",
+    "threads": "6",
+    "libType": "IU",
+    "targets": "genome.transcripts.fa",
+    "alignments": "C_5.Aligned.toTranscriptome.out.bam",
+    "output": "C_5",
+    "auxDir": "aux_info"
+}
