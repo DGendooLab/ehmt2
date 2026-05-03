@@ -118,37 +118,37 @@ pdf('1-2.QC_point_before.pdf',
 p2
 dev.off()
 
-# #过滤
-# #基于检测的过滤
-# #至少在3个细胞表达的基因和至少有200个基因表达的细胞
-# alldata<-All_Data
-# selected_c <- WhichCells(alldata, expression = nFeature_RNA >= 200)
-# selected_f <- rownames(alldata)[Matrix::rowSums(alldata[["RNA"]]$counts) >= 3]
-# data.filt <- subset(alldata, features = selected_f, cells = selected_c)
-# dim(data.filt)
-# # [1] 25479 71915
-# 
-# #细胞内基因数量 ≤ 4000、基因表达count数 ≤ 60000
-# data.filt <- subset(data.filt, cells=WhichCells(data.filt, expression = nFeature_RNA <= 4000))
-# data.filt <- subset(data.filt, cells=WhichCells(data.filt, expression = nCount_RNA <= 60000))
-# 
-# #基于核糖体和线粒体基因的过滤
-# #线粒体含量百分比 < 25%
-# data.filt <- subset(data.filt, percent_mito < 25)
-# dim(data.filt)
-# # [1] 25479 63778
-# 
-# feats <- c("nFeature_RNA", "nCount_RNA", "percent_mito")
-# #小提琴图
-# p3<-VlnPlot(data.filt, group.by = "orig.ident", features = feats, pt.size = 0, 
-#             ncol = 3) + NoLegend()
-# p3
-# pdf('1-3.QC_violin_post.pdf',
-#     width = 15,height = 6)
-# p3
-# dev.off()
-# 
-# saveRDS(data.filt,'data.filt.RDS')
+#过滤
+#基于检测的过滤
+#至少在3个细胞表达的基因和至少有200个基因表达的细胞
+alldata<-All_Data
+selected_c <- WhichCells(alldata, expression = nFeature_RNA >= 200)
+selected_f <- rownames(alldata)[Matrix::rowSums(alldata[["RNA"]]$counts) >= 3]
+data.filt <- subset(alldata, features = selected_f, cells = selected_c)
+dim(data.filt)
+# [1] 25479 71915
+
+#细胞内基因数量 ≤ 4000、基因表达count数 ≤ 60000
+data.filt <- subset(data.filt, cells=WhichCells(data.filt, expression = nFeature_RNA <= 4000))
+data.filt <- subset(data.filt, cells=WhichCells(data.filt, expression = nCount_RNA <= 60000))
+
+#基于核糖体和线粒体基因的过滤
+#线粒体含量百分比 < 25%
+data.filt <- subset(data.filt, percent_mito < 25)
+dim(data.filt)
+# [1] 25479 63778
+
+feats <- c("nFeature_RNA", "nCount_RNA", "percent_mito")
+#小提琴图
+p3<-VlnPlot(data.filt, group.by = "orig.ident", features = feats, pt.size = 0,
+            ncol = 3) + NoLegend()
+p3
+pdf('1-3.QC_violin_post.pdf',
+    width = 15,height = 6)
+p3
+dev.off()
+
+saveRDS(data.filt,'data.filt.RDS')
 
 
 #-----------------------------------降维、聚类和注释----------------------------
