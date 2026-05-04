@@ -59,6 +59,7 @@ graph LR
     C(Case Sample: A2,A3,A5,A6,B2,B3,B5,B6,C2,C3,C5,C6) --> E[DEGs]
     D(Case Sample: A1,B1,C1,A4,B4,C4) --> E[DEGs]
 ```
+
   
 ## Rationale for Further Multi-Omics Downstream Analysis Pipeline Selection
 
@@ -74,3 +75,14 @@ For the current multi-omics integration (ATAC-Seq & RNA-Seq) and downstream func
 **Version 2**, which utilizes a pooled analytical approach including both untreated and TGFb2-treated samples, has been fully archived to serve as a robust foundation for future research.
 *   **Scientific Potential:** 
     *   While outside the scope of the current baseline mechanism report, this pooled analysis provides a crucial preliminary framework for exploring the complex interactions between the TGFb2 signaling pathway (a known driver of EndoMT in the HCC microenvironment) and *EHMT2* epigenetic regulation. This version will be highly valuable for subsequent investigations into how external cytokines influence LSEC plasticity in conjunction with epigenetic modifications.
+
+
+## Directories
+
+```bash
+RNA-Seq/
+├── DOWNSTREAM_ANALYSIS/     # DGEs (Liu's Version)
+├── result_Miguel/           # DGEs (Miguel's Version)
+└── results/                 # RNA-Seq Quantitive Result from Salmon
+
+```
