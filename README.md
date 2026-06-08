@@ -39,7 +39,7 @@ config:
 flowchart TB
     A["Raw ATACseq Data"] -- "QC, alignment, peak calling" --> B["Processed ATACseq Data"]
     B-- "Annotation" -->C["Differentially Accessible Regions DARs"]
-    I["Raw ATACseq Data"] -- "QC, alignment, quantification" --> D["Processed Bulk RNAseq Data"]
+    I["Raw RNAseq Data"] -- "QC, alignment, quantification" --> D["Processed Bulk RNAseq Data"]
     D["Processed Bulk RNAseq Data"]-- "DESeq2" -->E["Differentially Expressed Genes DEGs"]
 
     X[ ]:::empty
